@@ -45,7 +45,7 @@
     ```
 3.  Screenshots for the failure screen in exception handling are located in folder:
 
-    ***\RoxelleGarciaAutomationExercise\RoxelleGarciaAutomationExercise\bin\Debug\net6.0\Screenshots***
+    > ***\RoxelleGarciaAutomationExercise\RoxelleGarciaAutomationExercise\bin\Debug\net6.0\Screenshots***
 4.  I have added a failed comparison in the test case to test the *exception handling and capture screenshots* during the process of **Updating the quantity of the products**. The comparison between the actual total amount and the expected total amount of two items does not match, allowing for the testing of the exception handling.
 
 ### ***Notes***
