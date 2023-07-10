@@ -1,13 +1,27 @@
 ## Welcome to Automation Testing with Selenium C#
 
+### **How to use the Project**
+1.  Open a ***Microsoft Visual Studio***
+2.  Click ***Clone a repository***
+3.  In the *Clone a repository* window, insert https://github.com/yana-garcia/Garcia-Automation-Testing.git in ***Repository location*** textbox
+4.  Click ***Clone*** button
+5.  Open the *Test Explorer* window
+     -  Click *Window* tab 
+     -  Click ***Test Explorer***
+6.  In *Test Explorer* tab, click ***Run All Tests in View***
+
+<hr>
+
 ### **How to Setup Environment**
 1.  Install ***Microsoft Visual Studio Community 2022 (64-bit) - Current Version 17.6.4***
 2.  Click ***Create New Project***
 3.  Select ***C#*** in Language dropdown
 4.  Select ***NUnit Test Project*** in Project Templates
 5.  Click ***Next*** button and Configure your new project details
-6.  In *Additional Information* window, Select ***.NET 6.0 (Long Term Support)*** in Framework dropdown
+6.  In the *Additional Information* window, Select ***.NET 6.0 (Long Term Support)*** in Framework dropdown
 7.  Click ***Create*** button
+
+<hr>
 
 ### **What are the Dependencies needed**
 1.  In *Solution Explorer*, Right Click ***Dependencies***
@@ -19,6 +33,8 @@
      -  Selenium.WebDriver.ChromeDriver v114.0.5735.9000
      -  RestSharp v110.2.0
      -  Newtonsoft.Json v13.0.3
+
+<hr>
 
 ### ***Things to Remember***
 1.  In testing the Test Case 1 and Test Case 14, there are some randomly google_vignette ads that are appearing in full screen in https://www.automationexercise.com/
