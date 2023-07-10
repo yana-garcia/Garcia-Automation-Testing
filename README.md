@@ -40,10 +40,13 @@
 1.  In testing the Test Case 1 and Test Case 14, there are some randomly google_vignette ads that are appearing in full screen in https://www.automationexercise.com/
 
     Note: If it ever happens, uncomment the timeout code in [testcase].cs, to have a 5 seconds buffer to close the ads. And the testing will proceed.
-2.  Screenshots for the failure screen in exception handling are located in folder:
+    ```
+    Thread.Sleep(5000);
+    ```
+3.  Screenshots for the failure screen in exception handling are located in folder:
 
     ***\RoxelleGarciaAutomationExercise\RoxelleGarciaAutomationExercise\bin\Debug\net6.0\Screenshots***
-3.  I have added a failed comparison in the test case to test the *exception handling and capture screenshots* during the process of **Updating the quantity of the products**. The comparison between the actual total amount and the expected total amount of two items does not match, allowing for the testing of the exception handling.
+4.  I have added a failed comparison in the test case to test the *exception handling and capture screenshots* during the process of **Updating the quantity of the products**. The comparison between the actual total amount and the expected total amount of two items does not match, allowing for the testing of the exception handling.
 
 ### ***Notes***
 1.  This is the first time I have created test scripts and a test environment in general, but I have been working as a UI developer for 7 years. Although I don't have much experience in automation, I am confident that I can learn and improve my skills in coding automation scripts if given the opportunity.
